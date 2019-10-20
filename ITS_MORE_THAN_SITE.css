@@ -1,0 +1,189 @@
+body
+{
+    background-image: url(bck_white.jpg);
+}
+
+header{
+    margin-top: 50px;
+    font-family: 'Pacifico', cursive;
+    z-index: 1;
+}
+
+.h_e_a_d_e_r_top-menu *{
+    margin: 0;
+    padding: 0;
+}
+
+.h_e_a_d_e_r_top-menu ul,
+.h_e_a_d_e_r_top-menu ol{
+    list-style: none;
+}
+
+.h_e_a_d_e_r_top-menu ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h_e_a_d_e_r_top-menu > ul li a{
+    display: block;
+    
+    background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(167,197,235,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(167,197,235,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(167,197,235,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(167,197,235,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(167,197,235,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(167,197,235,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#a7c5eb', GradientType=0 );
+    
+    padding: 15px;
+    font-size: 20px;
+    color: #123456;
+    text-decoration: none;
+    transition: all 0.8s ease;
+    height: 86%;
+}
+
+.h_e_a_d_e_r_top-menu > ul li{
+    position: relative;
+    border-right: 2px solid #A2BFB5;
+    max-height: 250px;
+    width: 160px;
+    text-align: center;
+}
+
+
+
+.h_e_a_d_e_r_top-menu > ul li:first-child{
+    border-left: 2px solid #A2BFB5;
+}
+
+
+.h_e_a_d_e_r_top-menu > ul li:last-child{
+    border-right: 2px solid #A2BFB5;
+}
+
+.h_e_a_d_e_r_top-menu li a:hover{
+    
+    background: rgba(212,228,239,1);
+background: -moz-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
+background: -webkit-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -o-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: -ms-linear-gradient(top, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+background: linear-gradient(to bottom, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=0 );
+    
+    color: aqua;
+    box-shadow: 1px 5px 10px -5px black;*/
+    transition: all 0.4s ease;
+}
+
+/*sub menu*/
+.h_e_a_d_e_r_top-menu li ul{
+    position: absolute;
+    min-width: 250 px;
+    display: none;
+}
+
+.h_e_a_d_e_r_top-menu li > ul li{
+   border: 2px solid #A2BFB5;
+}
+
+
+.h_e_a_d_e_r_top-menu li > ul li a{
+    padding: 10px;
+    text-align: center;
+    text-transform: none;
+    background: white;
+}
+
+.h_e_a_d_e_r_top-menu li:hover > ul{
+    display: block;
+}
+
+.goright li{
+    padding-left: 300px;
+    top: -130px;
+    position: relative
+}
+
+h1{
+    padding-top: 20px;
+    color: #FFA500;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 60px;
+}
+
+h2{
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.information {
+    padding-left: 230px;
+    font-family: monospace;
+    color: blueviolet;
+}
+
+.squaretype li{
+    font-size: 20px;
+    color: #00008B;
+    margin-left: 230px;
+    margin-bottom: 18px;
+    padding-right: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p{
+    padding-left: 200px;
+    color: darkgoldenrod;
+    font-size: 22px;
+}
+
+.rd{
+    color: red;
+}
+
+.grn {
+    color: forestgreen;
+}
+
+img{
+    height: 250px;
+}
+
+.bigger{
+    height: 350px;
+}
+
+
+.smaller{
+    height: 150px;
+}
+
+.smaller2{
+    height: 180px;
+}
+
+footer{
+    background-color:aqua;
+}
+
+.foot
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+h3{
+    font-size: 35px;
+    color: #00008B;
+}
+.rightpic {
+    margin-left: 70%;
+   }
